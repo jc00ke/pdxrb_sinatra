@@ -1,6 +1,8 @@
 [
-    { "section" :   "title"     },
-    { "section" :   "about_me"  },
-    { "section" :   "sinatra"   },
-    { "section" :   "haml"      }
+    { "section" :   "title"         },
+    { "section" :   "about_me"      },
+    { "section" :   "sinatra"       },
+    { "section" :   "haml"          },
+    { "section" :   "more_sinatra"  },
+    { "section" :   "middleware"    }
 ]
