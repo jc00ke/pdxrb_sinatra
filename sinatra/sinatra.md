@@ -7,8 +7,6 @@
 # Set up an app #
 
     $ cd /tmp
-    $ mkdir sinazzy && cd sinazzy
-    $ touch app.rb
     $ vim app.rb
 
 !SLIDE smaller
@@ -21,6 +19,9 @@
         'oh you did NOT just make a little website??!!!?!!'
     end
 
+!SLIDE commandline
+
+    $ ruby app.rb
 
 
 !SLIDE smaller code
@@ -51,7 +52,7 @@
     end
 
 !SLIDE smaller commandline incremental
-# ruby example/sinazzy.rb #
+# ruby examples/sinazzy.rb #
     $ curl localhost:4567/
     Hello World!
     $ curl -X DELETE localhost:4567/
@@ -101,13 +102,14 @@
     $ curl localhost:4567/i/dislike/puppies
     I dislike puppies too!
 
-!SLIDE
+!SLIDE smaller
 # You like regular expressions, right? #
 
     @@@ ruby
 
     get %r{/I/am/([\d]+)/years/old} do |age|
-        puts age # write to the logger. sometimes helpful.
+        puts age
+        # write to the logger. sometimes helpful.
     end
 
 
