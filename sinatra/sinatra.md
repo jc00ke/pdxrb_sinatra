@@ -114,7 +114,7 @@
 
     get %r{/I/am/([\d]+)/years/old} do |age|
         puts age
-        # write to the logger. sometimes helpful.
+        # write to stdout. sometimes helpful.
     end
 
 

@@ -18,3 +18,6 @@ What I mean by that is, if your app is more complicated than a Rack app, but you
 * Things you only need one file for
 * Getting closer to Rack/HTTP
 * Teaching you something new
+
+!SLIDE
+# Now a bigger example app #

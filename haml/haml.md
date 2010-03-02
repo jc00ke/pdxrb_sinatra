@@ -16,6 +16,19 @@
 !SLIDE
 :index can either be in (by default) views/ or in-file.
 
+It can also be wherever you want
+    @@@ ruby
+    set :views, Proc.new{ File.join(root, "over_here") }
+
+!SLIDE center
+# Quick Aside #
+Other configurations
+* :environment
+* :sessions
+* :root
+* :static
+* etc (http://www.sinatrarb.com/configuration.html)
+
 !SLIDE smaller
 
     @@@ ruby
