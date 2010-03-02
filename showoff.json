@@ -5,5 +5,7 @@
     { "section" :   "haml"          },
     { "section" :   "more_sinatra"  },
     { "section" :   "middleware"    },
-    { "section" :   "why_sinatra"   }
+    { "section" :   "why_sinatra"   },
+    { "section" :   "resources"     },
+    { "section" :   "outro"         }
 ]
