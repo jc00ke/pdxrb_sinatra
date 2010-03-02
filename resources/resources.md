@@ -2,10 +2,10 @@
 # Resources #
 ## A list of lists ##
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental smaller
 # Example Apps #
 * [Sinatra in the Wild](http://www.sinatrarb.com/wild.html)
-* [Hancock](http://github.com/atmos/hancock) &lt;&ndash; definitive Sinatra app
+* [Hancock](http://github.com/atmos/hancock) &lt;- definitive Sinatra app
 * [Nesta](http://effectif.com/nesta)
 * [Toopaste](http://github.com/zapnap/toopaste)
 * [NYLS Upload Tool](http://upload.citylaw.org/)

@@ -16,13 +16,16 @@
 !SLIDE
 :index can either be in (by default) views/ or in-file.
 
+!SLIDE smaller
 It can also be wherever you want
     @@@ ruby
     set :views, Proc.new{ File.join(root, "over_here") }
 
 !SLIDE center
 # Quick Aside #
+
 Other configurations
+
 * :environment
 * :sessions
 * :root
@@ -53,7 +56,7 @@ Other configurations
 
 !SLIDE smaller
 # Normal layout/template method #
-## examples/normal_haml/app.rb ##
+## examples/haml/app.rb ##
     @@@ ruby
 
     require 'rubygems'
@@ -74,10 +77,10 @@ Other configurations
 
 !SLIDE smaller
 # The Views #
-## examples/normal_haml/views/* ##
+## examples/haml/views/* ##
 
 !SLIDE smaller
-# examples/normal_haml/views/layout.haml #
+# examples/haml/views/layout.haml #
     !!!
     %html
         %head
@@ -86,7 +89,7 @@ Other configurations
         %body= yield
 
 !SLIDE smaller
-# examples/normal_haml/views/index.haml #
+# examples/haml/views/index.haml #
 
     #index
         Um, hi there.
@@ -97,7 +100,7 @@ Other configurations
         public/ has all the static files (just like Rails)
 
 !SLIDE smaller
-# examples/normal_haml/views/styles.sass #
+# examples/haml/views/styles.sass #
 
     #index
         :background-color   #ccc
