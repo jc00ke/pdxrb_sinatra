@@ -17,3 +17,8 @@ end
 put '/change/something' do
     "Changed or something"
 end
+
+get %r{/I/am/([\d]+)/years/old} do |age|
+    puts age # write to the logger. sometimes helpful.
+end
+

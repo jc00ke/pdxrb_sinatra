@@ -101,4 +101,13 @@
     $ curl localhost:4567/i/dislike/puppies
     I dislike puppies too!
 
+!SLIDE
+# You like regular expressions, right? #
+
+    @@@ ruby
+
+    get %r{/I/am/([\d]+)/years/old} do |age|
+        puts age # write to the logger. sometimes helpful.
+    end
+
 
