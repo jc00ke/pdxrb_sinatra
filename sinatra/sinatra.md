@@ -1,3 +1,8 @@
+!SLIDE
+# Sinatra #
+## Created by the great Blake Mizerany ##
+@bmizerany
+
 !SLIDE commandline incremental
 # Install that badboy #
 

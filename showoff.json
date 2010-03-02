@@ -4,5 +4,6 @@
     { "section" :   "sinatra"       },
     { "section" :   "haml"          },
     { "section" :   "more_sinatra"  },
-    { "section" :   "middleware"    }
+    { "section" :   "middleware"    },
+    { "section" :   "why_sinatra"   }
 ]

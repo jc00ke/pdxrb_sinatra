@@ -6,7 +6,8 @@
 
 # I'm Jesse Cooke #
 * [@jc00ke](http://twitter.com/jc00ke)
-* [http://jc00ke.com](http://jc00ke.com)
+* [http://jc00ke.com](http://jc00ke.com) (&lt;- nothing there)
+* [http://github.com/jc00ke](http://github.com/jc00ke)
 
 !SLIDE incremental
 

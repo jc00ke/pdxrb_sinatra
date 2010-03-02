@@ -1,16 +1,20 @@
-!SLIDE
+!SLIDE center
 # Did I mention... #
 ## It's built on Rack ##
-
+![rack logo](rack-logo.png)
 [http://rack.rubyforge.org](http://rack.rubyforge.org/)
 
-So, you get:
+!SLIDE center
+# So, you get #
 * middleware
 * Rack::Test
+* all other benefits of Rack
 
 !SLIDE center
 # Middleware #
 Apps that change the request or response.
+
+!SLIDE center
 * I::Rack - [from CodeRack competition](http://coderack.org/users/haruki_zaemon/entries/50-irack)
 * GsubHelloGoodbye (I just made this up)
 
