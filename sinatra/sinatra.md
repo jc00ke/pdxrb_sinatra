@@ -61,5 +61,44 @@
     $ curl -X PUT localhost:4567/change/something
     Changed or something
 
-!SLIDE center
+!SLIDE
 # It's all about Routes #
+
+!SLIDE code
+# Params #
+
+    @@@ ruby
+
+    get '/hi/:name' do
+        "Hello #{params[:name]}"
+    end
+
+!SLIDE code
+# Named Params #
+
+    @@@ ruby
+
+    get '/yo/:name' do |n|
+        "What's up #{n}"
+    end
+
+!SLIDE code
+# We have SPLAT! #
+    @@@ ruby
+
+    get '/i/*/*' do
+        splat = params[:splat]
+        "I #{splat.first} #{splat.last} too!"
+    end
+
+!SLIDE commandline incremental
+    $ curl localhost:4567/i/love/ruby
+    I love ruby too!
+
+    $ curl localhost:4567/i/dislike/puppies
+    That's a lie!
+
+    $ curl localhost:4567/i/dislike/puppies
+    I dislike puppies too!
+
+
