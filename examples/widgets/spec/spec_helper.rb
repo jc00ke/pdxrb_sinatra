@@ -8,9 +8,9 @@ project_root    = File.expand_path(File.join(File.dirname(__FILE__), '..'))
     pp
     spec
     spec/autorun
-    spec/interop/test).each{ |r| require r }
+    spec/interop/test).each{ |lib| require lib }
 
-require File.join(project_root, 'trivial')
+require File.join(project_root, 'widgets')
 
 set :environment,   :test
 set :run,           false
