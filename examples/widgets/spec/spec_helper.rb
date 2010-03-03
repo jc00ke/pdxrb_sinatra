@@ -6,6 +6,7 @@ project_root    = File.expand_path(File.join(File.dirname(__FILE__), '..'))
     sinatra
     rack/test
     pp
+    webrat
     spec
     spec/autorun
     spec/interop/test).each{ |lib| require lib }
@@ -19,4 +20,5 @@ set :logging,       false
 
 Spec::Runner.configure do |conf|
     conf.include Rack::Test::Methods
+    conf.include Webrat::Matchers
 end
