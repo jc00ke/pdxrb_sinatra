@@ -40,4 +40,4 @@
 * [http://delicious.com/jc00ke/sinatra](http://delicious.com/jc00ke/sinatra)
 * [Remi's series on Sinatra clone](http://remi.org/2009/03/30/building-your-own-sinatra-clone-part-1)
 * [http://github.com/sinatra/sinatra](http://github.com/sinatra/sinatra)
-
+* [http://japhr.blogspot.com/](http://japhr.blogspot.com/)
