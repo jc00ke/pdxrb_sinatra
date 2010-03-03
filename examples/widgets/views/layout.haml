@@ -8,5 +8,9 @@
             %h1 Widgets
             %nav
                 %a{ :href => '/' }Home
-                %a{ :href => '/login' }Login
+                %a{ :href => '/message' }Message
+                - if session[:message]
+                    %a{ :href => '/kill' }Kill the message
+        - if @message
+            #message= @message
         = yield

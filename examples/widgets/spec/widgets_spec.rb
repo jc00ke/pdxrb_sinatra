@@ -19,20 +19,33 @@ describe 'Widgets App' do
             last_response.body.should contain 'Home'
         end
 
-    end
-
-    context "'/login' route" do
-
-        it 'should have a form' do
-            get '/login'
+        it 'should have a message form' do
+            get '/'
             last_response.should be_ok
-            last_response.body.should include("action='/login'")
+            last_response.body.should have_selector("form[name='message']")
         end
 
-        it 'should have a legit login form' do
-            get '/login'
+        it 'should accept a POST' do
+            post    '/',
+                    "message"   => "yo dawg"
             last_response.should be_ok
-            last_response.body.should have_selector("form[name='login']")
+            last_response.should contain("yo dawg")
+       end
+
+    end
+
+    context "'/message' route" do
+
+        it 'should have the formatted message' do
+            get '/message'
+            last_response.should be_ok
+            last_response.body.should contain("***")
+        end
+
+        it 'should kill the message' do
+            get '/kill'
+            last_response.should be_ok
+            last_response.should_not have_selector("#message")
         end
 
     end
