@@ -2,6 +2,12 @@
 # Resources #
 ## A list of lists ##
 
+!SLIDE bullets
+# Sinatra 1.0 #
+* lots of deprecation warnings
+* Your app might work, might not
+* [http://www.sinatrarb.com/one-oh-faq](http://www.sinatrarb.com/one-oh-faq)
+
 !SLIDE bullets incremental smaller
 # Example Apps #
 * [Sinatra in the Wild](http://www.sinatrarb.com/wild.html)
